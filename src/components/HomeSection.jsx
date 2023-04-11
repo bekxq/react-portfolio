@@ -1,9 +1,10 @@
 import bektas from "../assets/bektas.jpg"
 
 function HomeSection(){
-    return <section className="home">
+    return (
+    <section className="home">
     <p>.</p>
-        <div className="container">
+        <div className="container__1">
             <div className="home__content">
                 <div className="home__gallery">
                     <img src={bektas} height="300px" width="300px" alt="me" />
@@ -13,6 +14,7 @@ function HomeSection(){
             </div>
         </div>
     </section>
+    )
 }
 
 export default HomeSection
