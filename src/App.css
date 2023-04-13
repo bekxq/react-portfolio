@@ -14,6 +14,8 @@ header{
 .head__title{
     color: white;
     font-family: 'Audiowide', sans-serif;
+    padding-left: 10px;
+    padding-top: 10px;
 }
 ul.head__ul{
     list-style-type: none;
@@ -93,24 +95,105 @@ section.about{
     display: flex;
     border: 0px;
 }
-.about__title h1{
+.about__content{
+    position: relative;
+}
+.about__title{
+    max-width: 500px;
+    position: absolute;
+}
+.about__title__h1{
+    color: red;
+    font-size: 36px;
+    font-family:'Audiowide', sans-serif;
+    padding-left: 150px;
+    padding-bottom: 20px;
+    padding-top: 50px;
+}
+.about__border{
+    max-width: 500px;
+    border: 3px solid rgb(11, 11, 105);
+    background-color: rgb(11, 11, 105);
+    border-radius: 15px;
+    opacity: 0.6;
+    width: 500px;
+}
+div.about__border .about__title__p{
+    color: white;
+    font-size: 24px;
+    font-family: 'Trirong', serif;
+}
+.about__list{
+    position: absolute;
+}
+ul.skills{
+    margin-left: 550px;
+    position: absolute;
+}
+p.skills{
+    font-family:'Audiowide', sans-serif;
     font-size: 36px;
     color: red;
-    font-family: "Sofia", sans-serif;
-    border: 2px solid black;
-    border-radius: 15px;
-    background-color: black;
-    padding: 2px 10px;
-    margin-inline: 10px;
-    margin-top: 10px;
+    padding-top: 50px;
 }
-.about__title p{
+ul.skills li{
     color: white;
-    opacity: 0;
     font-size: 24px;
-    display: none;
+    font-family:'Audiowide', sans-serif;
+    margin-top: 20px;
+    margin-left: 25px;
 }
-.about__title h1:hover .about__title p{
-    opacity: 1;
-    transition: 0.5s;
+
+ul.languages{
+    margin-left: 745px;
+    position: absolute;
+}
+p.languages{
+    font-family:'Audiowide', sans-serif;
+    font-size: 36px;
+    color: red;
+    padding-top: 50px;
+}
+ul.languages li{
+    color: white;
+    font-size: 24px;
+    font-family:'Audiowide', sans-serif;
+    margin-top: 20px;
+    margin-left: 50px;
+}
+
+ul.hobbies{
+    margin-left: 1030px;
+    position: absolute;
+}
+p.hobbies{
+    font-family:'Audiowide', sans-serif;
+    font-size: 36px;
+    color: red;
+    padding-top: 50px;
+}
+ul.hobbies li{
+    color: white;
+    font-size: 24px;
+    font-family:'Audiowide', sans-serif;
+    margin-top: 20px;
+    margin-left: 50px;
+}
+
+ul.courses{
+    margin-left: 1250px;
+    position: absolute;
+}
+p.courses{
+    font-family:'Audiowide', sans-serif;
+    font-size: 36px;
+    color: red;
+    padding-top: 50px;
+}
+ul.courses li{
+    color: white;
+    font-size: 24px;
+    font-family:'Audiowide', sans-serif;
+    margin-top: 20px;
+    margin-left: 50px;
 }
