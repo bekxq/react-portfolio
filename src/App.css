@@ -3,6 +3,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+/*Header ###############################################################################################################
+#############################################################################################################################
+#############################################################################################################################*/
 div.head{
         position:sticky;
 
@@ -46,7 +49,9 @@ li a:hover{
     color: black;
     background-color: gray;
 }
-
+/*container 1 ###############################################################################################################
+#############################################################################################################################
+#############################################################################################################################*/
 .home__title{
     font-family: 'Audiowide', sans-serif;
     color: white;
@@ -83,9 +88,11 @@ section.home{
 
 
 
-
+/*Container 2 ###############################################################################################################
+#############################################################################################################################
+#############################################################################################################################*/
 section.about{
-    background-image: url(https://rare-gallery.com/uploads/posts/569727-sky-dark-night.jpg);
+    background-image: url(https://rare-gallery.com/mocahbig/410908-dark-night-minimalism-monochrome-street-street-light.jpg);
     background-attachment: scroll;
     background-repeat: no-repeat;
     background-size: cover;
@@ -112,11 +119,10 @@ section.about{
 }
 .about__border{
     max-width: 500px;
-    border: 3px solid rgb(11, 11, 105);
-    background-color: rgb(11, 11, 105);
+    border: 3px solid white;
     border-radius: 15px;
-    opacity: 0.6;
     width: 500px;
+    padding: 5px;
 }
 div.about__border .about__title__p{
     color: white;
@@ -196,4 +202,85 @@ ul.courses li{
     font-family:'Audiowide', sans-serif;
     margin-top: 20px;
     margin-left: 50px;
+}
+
+
+/*Container 3 ###############################################################################################################
+#############################################################################################################################
+#############################################################################################################################*/
+section.skills{
+    background-image: url(https://images.hdqwalls.com/wallpapers/red-mountain-starry-night-dark-5k-9r.jpg);
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 800px;
+    position: relative;
+    display: flex;
+    border: 0px;
+    position: relative;
+}
+.skills__title{
+    max-width: 1200px;
+}
+.skills__title__h1{
+    font-family:'Audiowide', sans-serif;
+    font-size: 44px;
+    color: white;
+    border-bottom: 5px solid  red;
+    border-radius: 10px;
+    text-shadow: 3px  3px 5px red;
+    margin-left: 600px;
+    margin-top: 270px;
+}
+.skills__title__h1:hover{
+    color:blue;
+    text-shadow: 3px 3px 5px white;
+    border-color: aliceblue;
+}
+.skills__title__p{
+    font-family:'Audiowide', sans-serif;
+    font-size: 30px;
+    color: white;
+    border: 3px solid  red;
+    border-radius: 10px;
+    text-shadow: 3px  3px 5px red;
+    margin-left: 350px;
+    margin-top: 200px;
+    padding: 5px;
+    opacity: 0;
+    position: absolute;
+    max-width: 800px;
+    position: absolute;
+
+}
+.skills__title__h1:active{
+    color:red;
+    text-shadow: 3px 3px 5px white;
+    border-color: red;
+    opacity: 1;
+}
+.skills__title__p:hover{
+    opacity: 1;
+    transition: 1s;
+}
+.skills__title__hover{
+    opacity: 1;
+    color: red;
+    margin-left: 300px;
+    margin-top: 200px;
+    font-size: 50px;
+    position: absolute;
+
+}
+.skills__title__hover:active{
+    opacity: 0;
+}
+.skills__title__hover__h{
+    opacity: 1;
+    color: red;
+    margin-left: 1160px;
+    margin-top: 200px;
+    font-size: 50px;
+    position: absolute;
 }
