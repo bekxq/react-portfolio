@@ -10,7 +10,7 @@ function AboutSection(){
                         </div>
                     </div>
                     <div className="about__list">
-                        <ul className="skills">
+                        <ul id="skills1" className="skills">
                             <p className="skills">Skills</p>
                             <li>C++</li>
                             <li>Java</li>

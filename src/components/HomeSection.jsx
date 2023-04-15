@@ -1,8 +1,10 @@
+import { useRef } from "react"
 import bektas from "../assets/bektas.jpg"
 
 function HomeSection(){
+    
     return (
-    <section className="home">
+    <section id="home1" className="home">
     <p>.</p>
         <div className="container__1">
             <div className="home__content">

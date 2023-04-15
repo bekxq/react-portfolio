@@ -1,6 +1,6 @@
 function SkillsAbout(){
     return(
-        <section className="skills">
+        <section id="about1" className="skills">
             <div className="container__3">
                 <div className="skills__content">
                     <div className="skills__title">
