@@ -9,7 +9,7 @@ const Main = () => {
     <main>
         <HomeSection />
         <SkillsAbout/>
-        <AboutSection />
+        {/* <AboutSection /> */}
         <ProjectsSection/>
     </main>
 );

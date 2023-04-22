@@ -1,3 +1,4 @@
+import { NavLink } from "react-router-dom";
 import { Link } from "react-scroll";
 
 
@@ -9,9 +10,15 @@ const Header = () =>{
             <div className="head">
                 <h1 className="head__title"> Welcome to my portfolio </h1>
             <ul className="head__ul">
-                <li className="head__li"><Link activeClass="active" to="home1" spy={true} smooth={true}> Home</Link></li>
-                <li className="head__li"><Link  to="about1" spy={true} smooth={true}>About </Link></li>
-                <li className="head__li"><Link  to="skills1" spy={true} smooth={true}>Skills </Link></li>
+                <li className="head__li">
+                    <NavLink to='/main'>Home</NavLink>
+                </li>
+                <li className="head__li">
+                    <NavLink to='/about'>About</NavLink>
+                </li>
+                <li className="head__li"> 
+                <NavLink to='/skills'>Skills</NavLink>
+                </li>
                 <li className="head__li"><Link  to="projects1" spy={true} smooth={true}>Projects </Link></li>
                 <li className="head__li"><Link  to="skills1" spy={true} smooth={true}>Contact </Link></li>
             </ul>

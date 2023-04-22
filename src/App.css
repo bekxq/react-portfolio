@@ -27,7 +27,6 @@ ul.head__ul{
     overflow: hidden;
 }
 li.head__li{
-    float: left;
     display: inline-block;
     text-align: center;
     padding: 14px 16px;
@@ -323,16 +322,11 @@ section.projects{
     border-color: aliceblue;
 }
 a:link, a:visited {
-    background-color: white;
-    color: black;
-    border: 2px solid red;
+    color: white;
     padding: 10px 20px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    margin-top: 40px;
-    margin-left: 50px;
-    margin-right: 50px;
     border-radius: 10px;
     font-family:'Audiowide', sans-serif;
 
@@ -385,4 +379,41 @@ a:hover, a:active {
     color:blue;
     text-shadow: 3px 3px 5px white;
     border-color: aliceblue;
+}
+
+.projects__title_p:link, .projects__title_p:visited {
+    background-color: white;
+    color: black;
+    border: 2px solid red;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 40px;
+    margin-left: 50px;
+    margin-right: 50px;
+    border-radius: 10px;
+    font-family:'Audiowide', sans-serif;
+
+}
+
+.projects__title_p a:hover, .projects__title_p a:active {
+    background-color: blue;
+    color: white;
+    border-color: white;
+}
+
+.projects__title_p a{
+    font-family:'Audiowide', sans-serif;
+    background-color: white;
+    color: black;
+    border: 2px solid red;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 40px;
+    margin-left: 50px;
+    margin-right: 50px;
+    border-radius: 10px
 }
